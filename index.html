@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>Recipe App</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <div class="mobile__container">
+        <header>
+            <input type="text">
+            <button class = "search"><i class='bx bx-search'></i></button>
+        </header>
+
+        <div class="fav__container">
+            <h3>Favorite Meals</h3>
+            <ul class="fav__meals">
+                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/sxysrt1468240488.jpg" alt=""><span>Kapsalon</span></li>
+                <li><img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview" alt=""><span>Carbonara</span></li>
+                <li><img src="https:\/\/www.themealdb.com\/images\/media\/meals\/1550441882.jpg" alt=""><span>Potatoes</span></li>
+            </ul>
+        </div>
+        <div class="meal__container">
+            <span class="random">
+                Random Recipe
+            </span>
+
+            <div class="meal__content">
+                <div class="meal__header">
+                    <img src="https:\/\/www.themealdb.com\/images\/media\/meals\/rvxxuy1468312893.jpg" alt="">
+                </div>
+
+                <div class="meal__hero">
+                    <h4>Veggie Veggies</h4>
+                    <button><i class='bx bx-heart' ></i></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
